@@ -69,7 +69,6 @@ public class UserService {
                 item.setNumber(telephoneUpdateDTO.getNumber());
             }
         }
-        authUser.setTelephones(telephones);
         userDaoImpl.updateUser(authUser);
 
     }
@@ -82,7 +81,6 @@ public class UserService {
                 item.setCity(cityUpdateDTO.getCity());
             }
         }
-        authUser.setAddresses(addresses);
         userDaoImpl.updateUser(authUser);
 
     }
@@ -95,7 +93,6 @@ public class UserService {
                 item.setHouse(houseUpdateDTO.getHouse());
             }
         }
-        authUser.setAddresses(addresses);
         userDaoImpl.updateUser(authUser);
 
     }
@@ -108,7 +105,6 @@ public class UserService {
                 item.setStreet(streetUpdateDTO.getStreet());
             }
         }
-        authUser.setAddresses(addresses);
         userDaoImpl.updateUser(authUser);
 
     }
@@ -121,7 +117,6 @@ public class UserService {
                 item.setFlat(flatUpdateDTO.getFlat());
             }
         }
-        authUser.setAddresses(addresses);
         userDaoImpl.updateUser(authUser);
 
     }
